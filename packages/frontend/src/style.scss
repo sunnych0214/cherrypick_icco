@@ -9,8 +9,14 @@
 @import url("https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css");
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-jp.min.css");
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
-$default-font: "Pretendard JP", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Hiragino Sans", "Apple SD Gothic Neo", Meiryo, "Noto Sans JP", "Noto Sans KR", "Malgun Gothic", Osaka, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+$default-font: 'SUIT-Regular',"Pretendard JP", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Hiragino Sans", "Apple SD Gothic Neo", Meiryo, "Noto Sans JP", "Noto Sans KR", "Malgun Gothic", Osaka, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 $system-font: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 $monospace-font: "Pretendard JP", Pretendard, "JetBrains Mono", "Fira code", "Fira Mono", Consolas, Menlo, Courier, monospace !important;
 $code-monospace-font: "JetBrains Mono", "Pretendard JP", Pretendard, Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace !important;
@@ -26,11 +32,11 @@ $code-monospace-font: "JetBrains Mono", "Pretendard JP", Pretendard, Consolas, M
 	--MI-minBottomSpacingMobile: calc(72px + max(12px, env(safe-area-inset-bottom, 0px)));
 	--MI-minBottomSpacing: var(--MI-minBottomSpacingMobile);
 
-	--CP-cherry: rgb(255, 188, 220);
-	--CP-pick: rgb(177, 211, 255);
-	--CP-misskey: rgb(134, 179, 0);
-	--CP-cast: rgb(181, 151, 246);
-	--CP-ella: rgb(150, 198, 234);
+	--CP-cherry: rgb(255, 94, 248);
+	--CP-pick: rgb(98,105,231);
+	--CP-misskey: rgb(130,200,18);
+	--CP-cast: rgb(177, 95, 255);
+	--CP-ella: rgb(48, 203, 228);
 
 	@media (max-width: 500px) {
 		--MI-margin: var(--MI-marginHalf);
